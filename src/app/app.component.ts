@@ -10,9 +10,6 @@ export class AppComponent {
   public htmlData: string = "hello"
   public readonly: boolean = true;
   constructor() {
-    setInterval(() => {
-      console.log("", this.htmlData)
-    }, 2000)
   }
 
 
